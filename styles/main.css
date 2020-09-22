@@ -133,7 +133,8 @@ form {
   border-radius: 0.15em;
   border: 0.1em solid #5050503d;
   border-bottom: none;
-  padding: 3em 1.5em 1.8em 1.5em;
+  padding: 3em 1.4em 1.8em 1.4em;
+  height: 32em;
 }
 
 .fiedsetOne {
@@ -141,7 +142,7 @@ form {
 }
 
 label {
-  padding-top: 1em;
+  padding-top: 2em;
 }
 
 .textCenter {
@@ -166,8 +167,8 @@ label {
   margin-top: -1em;
   text-align: center;
   font-size: 0.6em;
-  width: 35em;
-  padding: 2.5em 2.7em;
+  width: 30em;
+  padding: 2.5em 4.9em;
   border-radius: 0.01em 0.01em 0.3em 0.3em;
   border: 0.1em solid #5050502c;
   background-color: #eceef1;
