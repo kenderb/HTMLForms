@@ -3,7 +3,50 @@
   padding: 0;
 }
 
+:root {
+  --blueColor: #0077c5;
+}
+
+body {
+  background-color: #eceef1;
+}
+
+a {
+  text-decoration: none;
+}
+
 img {
   max-width: 100%;
   max-height: 100%;
+}
+
+.blueColorBG {
+  background-color: var(--blueColor);
+}
+
+.blueColor {
+  color: var(--blueColor);
+}
+
+.flexBox {
+  display: flex;
+}
+
+header {
+  margin-top: 0.5em;
+  float: right;
+  justify-content: center;
+  align-items: center;
+}
+
+.signIn {
+  margin-left: 0.5em;
+  margin-right: 2em;
+  border-radius: 0.3em;
+  border: 0.01em solid #4d4f51bb;
+  color: white;
+  font-size: 1em;
+  height: 2.4em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }

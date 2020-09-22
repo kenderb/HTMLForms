@@ -4,17 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/main.css" />
+    <script src="https://kit.fontawesome.com/7bfe4ec72d.js" 
+    crossorigin="anonymous">
+    </script>
     <title>form</title>
+
   </head>
   <body>
-    <header>
+    <!-- Header -->
+    <header class="flexBox">
       <div>
         <p>Already have an Intuit account?</p>
-        <p>i forgot my User ID or Password</p>
+        <a href="#" class="blueColor">I forgot my User ID or Password</a>
       </div>
-      <button class="signIn"></button>
+      <button class="signIn blueColorBG" type="button"> 
+        <i class="fas fa-lock"></i>
+        Sign in</button>
     </header>
-
+    <!-- main content -->
     <main>
       <h1>
         <a href="#">
@@ -22,28 +29,27 @@
         /></a>
       </h1>
       <ul>
-        <il
-          ><a href="#"><img src="assets/images/hojaMenta.svg" alt="Leaf" /></a>
-          <a href="#">mint</a></il
-        >
-        <il
-          ><a href="#"><img src="assets/images/qb.svg" alt="qb" /></a>
-          <a href="#">quickbooks</a></il
-        >
-        <il
-          ><a href="#"
-            ><img src="assets/images/paloma.svg" alt="Check mark"
-          /></a>
-          <a href="#">turbotax</a></il
-        >
+        <li><a href="#"><img src="assets/images/hojaMenta.svg" alt="Leaf" /></a>
+          <a href="#">mint</a>
+        </li>
+        <li>
+          <a href="#"><img src="assets/images/qb.svg" alt="qb" /></a>
+          <a href="#">quickbooks</a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="assets/images/paloma.svg" alt="Check mark"/>
+          </a>
+          <a href="#">turbotax</a>
+        </li>
       </ul>
       <form action="/login">
         <fieldset>
-          <label>
-            <h2>Create an Intuit account</h2>
+          <div>
+            <h2 class="headImage">Create an Intuit account</h2>
             <p>One account for everything Intuit, including Mint.</p>
-            <p><a href="#">Learn more</a></p></label
-          >
+            <p><a href="#">Learn more</a></p>
+          </div>
           <label>Email address<input type="email" name="email" /></label>
           <label
             >Phone (recommended)<input type="tel" name="telephone" />
@@ -51,13 +57,13 @@
           </label>
           <label>Password<input type="password" name="password" /></label>
           <label><input type="submit" value="Create account" /></label>
-          <label
-            ><p>
+          <div>
+            <p>
               By clicking Create account, you agree to our
               <a href="#">Terms</a> and have read and acknowledge our
               <a href="#">Privacy Statement.</a>
-            </p></label
-          >
+            </p>
+          </div>
         </fieldset>
         <fieldset>
           <p>
@@ -67,6 +73,7 @@
         </fieldset>
       </form>
     </main>
+    <!-- footer -->
     <footer>
       <ul>
         <li><a href="#">Legal</a></li>
