@@ -98,6 +98,7 @@ header {
 .container {
   flex-direction: column;
   align-items: center;
+  height: 50em;
 }
 
 .intuitIng {
@@ -115,4 +116,7 @@ header {
 .text {
   font-size: 1.1em;
   color: #505050b9;
+}
+form fieldset{
+  height: 100em;
 }
