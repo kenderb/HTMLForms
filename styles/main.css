@@ -9,7 +9,8 @@
 
 body {
   background-color: #eceef1;
-  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial sans-serif;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica,
+    Arial sans-serif;
 }
 
 a {
@@ -38,7 +39,7 @@ main {
 }
 
 footer {
-  position: absolute;
+  position: relative;
   bottom: 3.5em;
   width: 100%;
   text-align: center;
@@ -63,10 +64,20 @@ footer a {
   display: flex;
 }
 
+.leftBox {
+  flex: 70%;
+}
+
+.rightBox {
+  justify-content: center;
+  align-items: center;
+  flex: 40%;
+}
+
 header {
   margin-top: 1em;
-  justify-content: end;
-  align-items: center;
+  justify-content: center;
+  flex-direction: row;
   font-size: 0.8em;
   color: #505050;
 }
@@ -117,6 +128,83 @@ header {
   font-size: 1.1em;
   color: #505050b9;
 }
-form fieldset{
-  height: 100em;
+
+form {
+  background-color: white;
+  border-radius: 0.15em;
+  border: 0.1em solid #5050503d;
+  border-bottom: none;
+  padding: 3em 1.5em 1.8em 1.5em;
+}
+
+.fiedsetOne {
+  flex-direction: column;
+}
+
+label {
+  padding-top: 1em;
+}
+
+.textCenter {
+  margin-top: -1em;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.textCenter > * + * {
+  margin-top: 0.8em;
+}
+
+.textCenter h2 {
+  font-size: 1.7em;
+}
+
+.apart {
+  margin-top: -0.1em;
+}
+
+.fieldsetTwo {
+  margin-top: -1em;
+  text-align: center;
+  font-size: 0.6em;
+  width: 35em;
+  padding: 2.5em 2.7em;
+  border-radius: 0.01em 0.01em 0.3em 0.3em;
+  border: 0.1em solid #5050502c;
+  background-color: #eceef1;
+  border-top: none;
+}
+
+input {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  width: 25em;
+  height: 2.5em;
+}
+
+.footerFieldsetOne {
+  margin-bottom: 2em;
+}
+
+.footerField {
+  margin-top: 1em;
+  font-size: small;
+  color: #505050;
+}
+.footerField > p + p {
+  margin-top: 0.5em;
+}
+
+input[type=submit] {
+  height: 2.5em;
+  border: 0.1em solid #505050;
+  color: white;
+  border-radius: 0.3em;
+  font-size: 1.05em;
+  width: 19em;
+  background-color: var(--blueColor);
+}
+
+.italiFont {
+  font-style: italic;
 }

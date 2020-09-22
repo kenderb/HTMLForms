@@ -13,75 +13,104 @@
   <body>
     <!-- Header -->
     <header class="flexBox">
-      <div>
-        <p>Already have an Intuit account?</p>
-        <a href="#" class="blueColor">I forgot my User ID or Password</a>
+      <div class="leftBox"></div>
+      <div class="rightBox flexBox">
+        <div>
+          <p>Already have an Intuit account?</p>
+          <a href="#" class="blueColor">I forgot my User ID or Password</a>
+        </div>
+        <button class="signIn blueColorBG" type="button">
+          <i class="fas fa-lock"></i>
+          Sign In
+        </button>
       </div>
-      <button class="signIn blueColorBG" type="button">
-        <i class="fas fa-lock"></i>
-        Sign In
-      </button>
     </header>
     <!-- main content -->
     <main>
       <div class="flexBox container">
         <h1>
           <a href="#">
-            <img src="assets/images/intuit.svg" alt="Intuit logo" class="intuitIng"/>
+            <img
+              src="assets/images/intuit.svg"
+              alt="Intuit logo"
+              class="intuitIng"
+            />
           </a>
         </h1>
         <ul class="logosMiddleTop flexBox">
           <li class="flexBox">
-            <a href="#"><img src="assets/images/hojaMenta.svg" alt="Leaf" class="appIcons" /></a>
+            <a href="#"
+              ><img
+                src="assets/images/hojaMenta.svg"
+                alt="Leaf"
+                class="appIcons"
+            /></a>
             <a href="#" class="text">mint</a>
           </li>
           <li class="flexBox">
-            <a href="#"><img src="assets/images/qb.svg" alt="qb" class="appIcons"/></a>
+            <a href="#"
+              ><img src="assets/images/qb.svg" alt="qb" class="appIcons"
+            /></a>
             <a href="#" class="text">quickbooks</a>
           </li>
           <li class="flexBox">
             <a href="#">
-              <img src="assets/images/paloma.svg" alt="Check mark" class="appIcons"/>
+              <img
+                src="assets/images/paloma.svg"
+                alt="Check mark"
+                class="appIcons"
+              />
             </a>
             <a href="#" class="text">turbotax</a>
           </li>
         </ul>
-        <form action="/login">
-          <fieldset>
-            <div>
+        <form action="/login" class="actualForm">
+          <div class="fiedsetOne flexBox">
+            <div class="title iten textCenter">
               <h2 class="headImage">Create an Intuit account</h2>
               <p>One account for everything Intuit, including Mint.</p>
-              <p><a href="#">Learn more</a></p>
+              <p class="apart"><a href="#">Learn more</a></p>
             </div>
-            <label>Email address<input type="email" name="email" /></label>
-            <label
-              >Phone (recommended)<input type="tel" name="telephone" />
+            <label class="iten">
+              Email address<input type="email" name="email" required/>
+            </label>
+            <label class="iten">
+              Phone (recommended)<input type="tel" name="telephone" required/>
               Standard call, messaging or data rates may apply.
             </label>
-            <label>Password<input type="password" name="password" /></label>
-            <label><input type="submit" value="Create account" /></label>
-            <div>
-              <p>
+            <label class="iten">
+              Password<input type="password" name="password" required/>
+            </label>
+            <label class="iten">
+              <input type="submit" value="Create account" />
+            </label>
+            <div class="iten textCenter footerField">
+              <p  class="italiFont">
                 By clicking Create account, you agree to our
-                <a href="#">Terms</a> and have read and acknowledge our
-                <a href="#">Privacy Statement.</a>
               </p>
+              <p> 
+                <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy</a>
+              </p>
+              <p>
+                <a href="#">Statement.</a>
+              </p>
+              
             </div>
-          </fieldset>
-          <fieldset>
-            <p>
-              Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and
-              <a href="#">Terms of Use.</a>
-            </p>
-          </fieldset>
+          </div>
         </form>
+        <div class="fieldsetTwo">
+          <p>
+            Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and
+            <a href="#">Terms of Use.</a>
+          </p>
+        </div>
       </div>
     </main>
     <!-- footer -->
     <footer>
-        <a href="#">Legal</a>
-        <a href="#">Privacy</a>
-        <a href="#">Security</a>
+      <a href="#">Legal</a>
+      <a href="#">Privacy</a>
+      <a href="#">Security</a>
       <p>
         © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
         TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
