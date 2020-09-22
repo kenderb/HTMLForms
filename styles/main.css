@@ -9,7 +9,7 @@
 
 body {
   background-color: #eceef1;
-  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -64,13 +64,12 @@ footer a {
 }
 
 .leftBox {
-  flex: 70%;
+  flex: 10%;
 }
 
 .rightBox {
   justify-content: center;
   align-items: center;
-  flex: 40%;
 }
 
 header {
