@@ -9,7 +9,8 @@
 
 body {
   background-color: #eceef1;
-  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial sans-serif;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica,
+    Arial sans-serif;
 }
 
 a {
@@ -115,4 +116,19 @@ header {
 .text {
   font-size: 1.1em;
   color: #505050b9;
+}
+
+.fiedsetOne {
+  background-color: white;
+  height: 35em;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  width: 21.5em;
+}
+input {
+  width: 22em;
+  height: 1.8em;
 }
