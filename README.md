@@ -56,5 +56,5 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository) licensed.
+This project is [MIT](https://github.com/kenderb/HTMLForms/blob/feature/LICENSE) licensed.
 
