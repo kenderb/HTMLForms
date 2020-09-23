@@ -141,7 +141,7 @@ form {
   flex-direction: column;
 }
 
-label {
+.padding-top {
   padding-top: 2em;
 }
 
