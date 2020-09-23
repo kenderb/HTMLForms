@@ -2,7 +2,7 @@
 
 # HTML and CSS form
 
-> This is a intuit form clone made for an assignment of HTML/CSS.
+> This is an intuit form clone made for an assignment of HTML/CSS.
 
 ![screenshot](./app_screenshot.png)
 
@@ -52,7 +52,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Yotube page
+- Intuit form.
 
 ## 📝 License
 
